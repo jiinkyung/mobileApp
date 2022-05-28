@@ -59,12 +59,17 @@ class MainActivity : AppCompatActivity() {
          */
         binding.viewpager.orientation = ViewPager2.ORIENTATION_HORIZONTAL // 페이지 넘기는 방향
         binding.viewpager.adapter = MyFragmentAdapter(this)
-
-
+/*
         val tabTitleArray = arrayOf("홈", "가맹점\n찾기", "중고\n거래", "로컬\n푸드", "나의\n온도")
         TabLayoutMediator(binding.tab1, binding.viewpager){
                 tab1, position -> tab1.text = tabTitleArray[position]
         }.attach()
+
+ */
+        TabLayoutMediator(binding.tab1, binding.viewpager){
+                tab, position -> tab.text = "TAB ${position+1}"
+        }.attach()
+
 
         /*
         val requestLancher: ActivityResultLauncher<Intent>

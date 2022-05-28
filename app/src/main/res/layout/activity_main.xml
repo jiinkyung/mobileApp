@@ -5,54 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:id="@+id/main_content"
+
+
+    <!--뷰페이저-->
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+
+        android:id="@+id/viewpager"
+        android:orientation="vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        android:id="@+id/appbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tab1"
 
-        <!--androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:id="@+id/toolbar"
-            app:layout_collapseMode="pin"
-            style="@style/Widget.MaterialComponents.Toolbar.Primary" /-->
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabBackground="@color/main_blue"
+        app:tabTextColor="#000000"
+        app:tabSelectedTextColor="#000000"
 
-        <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/appbar"
-            android:layout_gravity="bottom"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-
-
-        <com.google.android.material.tabs.TabLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:id="@+id/tab1"
-            android:layout_gravity="bottom"
-            app:tabMode="fixed"
-            app:tabGravity="fill"
-            app:tabBackground="@color/main_blue"
-            app:tabTextColor="#000000"
-            app:tabSelectedTextColor="#000000"
-
-            app:tabIndicatorColor="#001D6E"
-
-            />
-        </com.google.android.material.appbar.AppBarLayout>
-        <!--뷰페이저-->
-        <androidx.viewpager2.widget.ViewPager2
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/viewpager"
-            android:orientation="vertical"
-            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+        app:tabIndicatorColor="#001D6E"/>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
 </LinearLayout>
 
 
