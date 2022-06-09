@@ -30,17 +30,37 @@ class Fragment1 : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-
+    lateinit var binding : Fragment1Binding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val binding = Fragment1Binding.inflate(inflater, container, false)
+        binding = Fragment1Binding.inflate(inflater, container, false)
         val layoutManager = LinearLayoutManager(activity)
+
 
         return binding.root
     }
+    /*override fun onStart() {
+        super.onStart()
+        if(MyApplication2.checkAuth() || MyApplication2.email != null){
+            //binding.btnLogin.text = "로그아웃"
+            binding.nickname.text = "${MyApplication2.email}님"
+            //binding.authTv.textSize = 16F
+            //binding.mainRecyclerView.visibility = View.VISIBLE
+            //makeRecyclerView()
+        }
+        else {
+            //binding.btnLogin.text = "로그인"
+            //binding.authTv.text = "덕성 모바일"
+            //binding.authTv.textSize = 24F
+            //binding.mainRecyclerView.visibility = View.GONE
+        }
+    }
+
+     */
+
 
     companion object {
         /**
