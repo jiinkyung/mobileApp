@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentActivity">
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainRecyclerView"
+        android:visibility="gone" />
+
+    <!--com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addFab"
+        android:src="@android:drawable/ic_input_add"
+        app:fabSize="normal"
+        app:rippleColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="24dp" /-->
+    <!--뷰페이저-->
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+
+        android:id="@+id/viewpager"
+        android:orientation="vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            app:tabBackground="@color/main_blue"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="#001D6E"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="#000000"
+
+            app:tabTextColor="#000000" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+</LinearLayout>
