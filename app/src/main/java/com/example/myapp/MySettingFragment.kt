@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.preference.EditTextPreference
+import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 
@@ -29,6 +30,11 @@ class MySettingFragment : PreferenceFragmentCompat() {
                 "설정된 닉네임은 $text 입니다."
             }
         }
+
+        val regionPreference : ListPreference? = findPreference("region")
+        regionPreference?.summaryProvider = ListPreference.SimpleSummaryProvider.getInstance()
+
+
     }
 
 

@@ -1,20 +1,26 @@
 package com.example.myapp
 
-import com.example.myapp.MyApplication2
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
+import androidx.appcompat.app.AppCompatActivity
+import androidx.preference.PreferenceManager
+import com.example.myapp.MyApplication2.Companion.email
 import com.example.myapp.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding : ActivityMainBinding
+
+    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_login)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
 
         binding.btnLogin.setOnClickListener {
             val intent = Intent(this, FragmentActivity::class.java)
@@ -46,5 +52,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AuthActivity::class.java)
             startActivity(intent)
         }
+
+
     }
 }

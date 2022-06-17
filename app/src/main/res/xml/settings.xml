@@ -4,5 +4,11 @@
     <EditTextPreference
         android:key="name"
         android:title="닉네임 설정" />
+    <ListPreference
+        android:key="region"
+        android:title="지역 설정"
+        android:entries="@array/region_list"
+        android:entryValues="@array/region_list"/>
+
 
 </PreferenceScreen>

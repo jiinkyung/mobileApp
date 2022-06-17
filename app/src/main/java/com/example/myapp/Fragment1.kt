@@ -48,24 +48,6 @@ class Fragment1 : Fragment() {
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity())
         name = sharedPreferences.getString("name", "")!!
         binding.name.setText(name)
-        /*val name = arguments?.getString("name", "")
-        Log.d("mobileApp", arguments.toString())
-        Log.d("mobileApp", "이름: $name" )
-        binding.name.setText(name)
-
-         */
-
-        /*Handler().postDelayed(Runnable {
-val name = arguments?.get("name").toString()
-
-        Log.d("mobileApp", arguments.toString())
-        Log.d("mobileApp", "이름: " + name)
-        binding.name.setText(name)
-
-        }, 1000) // 딜레이 시간 설정. (1초 = 1000)
-
-
-         */
 
         return binding.root
     }
@@ -73,9 +55,10 @@ val name = arguments?.get("name").toString()
         super.onResume()
 
         val name = sharedPreferences.getString("name", "")
-        Log.d("mobileApp", "$name")
+        val region = sharedPreferences.getString("region", "")
 
         binding.name.setText(name)
+        binding.region.setText(region)
 
     }
 

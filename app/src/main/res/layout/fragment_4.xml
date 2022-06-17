@@ -7,11 +7,16 @@
     android:orientation="vertical"
     android:id="@+id/fragment44"
     tools:context=".Fragment4">
-<Button
+    <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="환경설정"
     android:id="@+id/btnSetting"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"
+        android:id="@+id/logoutBtn"/>
 
 
 
