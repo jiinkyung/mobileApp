@@ -6,6 +6,11 @@
     android:orientation="vertical"
     tools:context=".Fragment2">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서울시 착한가격 업소 찾기"
+        android:textSize="35dp" />
 
     <Button
         android:layout_width="wrap_content"

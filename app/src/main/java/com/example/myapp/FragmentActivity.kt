@@ -1,11 +1,16 @@
 package com.example.myapp
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.SharedPreferences
+import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
+import androidx.preference.Preference
+import androidx.preference.PreferenceManager
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.example.myapp.databinding.ActivityFragmentBinding
@@ -16,7 +21,7 @@ class FragmentActivity : AppCompatActivity() {
     class MyFragmentAdapter(activity: FragmentActivity) : FragmentStateAdapter(activity) {
         val fragments: List<Fragment>
         init {
-            fragments = listOf(Fragment1(), Fragment2(), Fragment3(), Fragment4(), Fragment5())
+            fragments = listOf(Fragment1(), Fragment2(), Fragment3(), Fragment4())
         }
         override fun getItemCount(): Int { // fragment 개수?
             //TODO("Not yet implemented")
@@ -36,10 +41,14 @@ class FragmentActivity : AppCompatActivity() {
     var datas : MutableList<String>? = null // 전역변수로 선언해줘야함.
     //lateinit var adapter : MyAdapter
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
         setContentView(binding.root)
+
+
+
         // binding에 있는 툴바를 액션바처럼 사용하겠다!
         //setSupportActionBar(binding.toolbar)
 
@@ -54,16 +63,12 @@ class FragmentActivity : AppCompatActivity() {
          */
         binding.viewpager.orientation = ViewPager2.ORIENTATION_HORIZONTAL // 페이지 넘기는 방향
         binding.viewpager.adapter = MyFragmentAdapter(this)
-/*
-        val tabTitleArray = arrayOf("홈", "가맹점\n찾기", "중고\n거래", "로컬\n푸드", "나의\n온도")
+
+        val tabTitleArray = arrayOf("홈", "가맹점\n찾기", "중고\n거래", "나의\n온도")
         TabLayoutMediator(binding.tab1, binding.viewpager){
                 tab1, position -> tab1.text = tabTitleArray[position]
         }.attach()
 
- */
-        TabLayoutMediator(binding.tab1, binding.viewpager){
-                tab, position -> tab.text = "TAB ${position+1}"
-        }.attach()
 
 
         /*
@@ -109,10 +114,13 @@ class FragmentActivity : AppCompatActivity() {
 
 
     }
+
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(toogle.onOptionsItemSelected(item))
             return true
 
         return super.onOptionsItemSelected(item)
     }
+
 }

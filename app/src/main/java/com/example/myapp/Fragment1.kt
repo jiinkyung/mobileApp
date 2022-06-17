@@ -1,10 +1,14 @@
 package com.example.myapp
 
+import android.content.SharedPreferences
 import android.os.Bundle
+import android.os.Handler
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapp.databinding.Fragment1Binding
 
@@ -31,6 +35,8 @@ class Fragment1 : Fragment() {
         }
     }
     lateinit var binding : Fragment1Binding
+    lateinit var sharedPreferences : SharedPreferences
+    lateinit var name : String
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -39,47 +45,38 @@ class Fragment1 : Fragment() {
         binding = Fragment1Binding.inflate(inflater, container, false)
         val layoutManager = LinearLayoutManager(activity)
 
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity())
+        name = sharedPreferences.getString("name", "")!!
+        binding.name.setText(name)
+        /*val name = arguments?.getString("name", "")
+        Log.d("mobileApp", arguments.toString())
+        Log.d("mobileApp", "이름: $name" )
+        binding.name.setText(name)
+
+         */
+
+        /*Handler().postDelayed(Runnable {
+val name = arguments?.get("name").toString()
+
+        Log.d("mobileApp", arguments.toString())
+        Log.d("mobileApp", "이름: " + name)
+        binding.name.setText(name)
+
+        }, 1000) // 딜레이 시간 설정. (1초 = 1000)
+
+
+         */
 
         return binding.root
     }
-    /*override fun onStart() {
-        super.onStart()
-        if(MyApplication2.checkAuth() || MyApplication2.email != null){
-            //binding.btnLogin.text = "로그아웃"
-            binding.nickname.text = "${MyApplication2.email}님"
-            //binding.authTv.textSize = 16F
-            //binding.mainRecyclerView.visibility = View.VISIBLE
-            //makeRecyclerView()
-        }
-        else {
-            //binding.btnLogin.text = "로그인"
-            //binding.authTv.text = "덕성 모바일"
-            //binding.authTv.textSize = 24F
-            //binding.mainRecyclerView.visibility = View.GONE
-        }
-    }
+    override fun onResume() {
+        super.onResume()
 
-     */
+        val name = sharedPreferences.getString("name", "")
+        Log.d("mobileApp", "$name")
 
+        binding.name.setText(name)
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment Fragment1.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            Fragment1().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
     }
 
 }
