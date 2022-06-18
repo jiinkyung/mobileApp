@@ -4,18 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_margin="10dp"
     tools:context=".Fragment2">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:text="서울시 착한가격 업소 찾기"
-        android:textSize="35dp" />
+        android:textSize="30dp"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="검색"
+
         android:id="@+id/searchBtn"/>
     <FrameLayout
         android:layout_width="match_parent"
