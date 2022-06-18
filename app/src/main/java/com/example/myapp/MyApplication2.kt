@@ -4,6 +4,7 @@ import androidx.multidex.MultiDexApplication
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import com.kakao.sdk.common.KakaoSdk
 
 class MyApplication2 : MultiDexApplication() {
     companion object{
@@ -29,5 +30,7 @@ class MyApplication2 : MultiDexApplication() {
 
         //db = FirebaseFirestore.getInstance()
         //storage = Firebase.storage
+
+        KakaoSdk.init(this, "4a2f50e85daf54224e3d46802235380a")
     }
 }

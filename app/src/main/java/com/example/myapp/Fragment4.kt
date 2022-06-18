@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapp.databinding.Fragment4Binding
+import com.kakao.sdk.user.UserApiClient
 
 
 class Fragment4 : Fragment() {
@@ -31,7 +32,16 @@ class Fragment4 : Fragment() {
         binding.logoutBtn.setOnClickListener {
             MyApplication2.auth.signOut()
             MyApplication2.email = null
-            Toast.makeText(getActivity(), "로그아웃", Toast.LENGTH_SHORT).show();
+
+            UserApiClient.instance.logout { error ->
+                if(error != null) {
+                    Toast.makeText(getActivity(), "로그아웃 실패", Toast.LENGTH_SHORT).show()
+                }
+                else {
+                    Toast.makeText(getActivity(), "로그아웃 성공", Toast.LENGTH_SHORT).show()
+                }
+            }
+            Toast.makeText(getActivity(), "로그아웃", Toast.LENGTH_SHORT).show()
             val intent = Intent(getActivity(), MainActivity::class.java)
             startActivity(intent)
         }
