@@ -27,5 +27,26 @@
         <item>중구</item>
         <item>중랑구</item>
     </string-array>
+    <string-array name="my_color">
+        <item>white</item>
+        <item>pink</item>
+        <item>blue</item>
+    </string-array>
+    <string-array name="my_color_value">
+        <item>#ffffff</item>
+        <item>#FFE4E1</item>
+        <item>#F0FFFF</item>
+    </string-array>
+
+    <string-array name="my_btncolor">
+        <item>blue</item>
+        <item>pink</item>
+        <item>yellow</item>
+    </string-array>
+    <string-array name="my_btncolor_value">
+        <item>#A0D1F7</item>
+        <item>#FFC0CB</item>
+        <item>#FAFAD2</item>
+    </string-array>
 
 </resources>

@@ -1,5 +1,7 @@
 package com.example.myapp
 
+import android.content.SharedPreferences
+import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -7,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapp.databinding.Fragment1Binding
 import com.example.myapp.databinding.Fragment2Binding
@@ -34,14 +37,17 @@ class Fragment2 : Fragment() {
         }
     }
 
+    lateinit var sharedPreferences : SharedPreferences
+    lateinit var binding : Fragment2Binding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val binding = Fragment2Binding.inflate(inflater, container, false)
+        binding = Fragment2Binding.inflate(inflater, container, false)
         val layoutManager = LinearLayoutManager(activity)
 
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity())
 
         val fragment = RetrofitFragment()
         val bundle = Bundle()
@@ -54,6 +60,19 @@ class Fragment2 : Fragment() {
         }
 
         return binding.root
+    }
+
+    override fun onResume() {
+        super.onResume()
+        val btnColor = sharedPreferences.getString("btnColor", "")
+        if(btnColor == ""){
+            binding.searchBtn.setBackgroundColor(Color.parseColor("#A0D1F7"))
+
+        } else {
+            binding.searchBtn.setBackgroundColor(Color.parseColor(btnColor))
+
+        }
+
     }
 
     companion object {

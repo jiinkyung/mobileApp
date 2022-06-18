@@ -1,12 +1,15 @@
 package com.example.myapp
 
 import android.content.Intent
+import android.content.SharedPreferences
+import android.graphics.Color
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapp.databinding.Fragment4Binding
 import com.kakao.sdk.user.UserApiClient
@@ -15,6 +18,7 @@ import com.kakao.sdk.user.UserApiClient
 class Fragment4 : Fragment() {
     // TODO: Rename and change types of parameters
     lateinit var binding: Fragment4Binding
+    lateinit var sharedPreferences : SharedPreferences
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -23,6 +27,8 @@ class Fragment4 : Fragment() {
         // Inflate the layout for this fragment
         binding = Fragment4Binding.inflate(inflater, container, false)
         val layoutManager = LinearLayoutManager(activity)
+
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity())
 
         binding.btnSetting.setOnClickListener {
             val intent = Intent(getActivity(), ProfileActivity::class.java)
@@ -47,6 +53,20 @@ class Fragment4 : Fragment() {
         }
 
         return binding.root
+
+    }
+    override fun onResume() {
+        super.onResume()
+        val btnColor = sharedPreferences.getString("btnColor", "")
+        if(btnColor == ""){
+            binding.btnSetting.setBackgroundColor(Color.parseColor("#A0D1F7"))
+            binding.logoutBtn.setBackgroundColor(Color.parseColor("#A0D1F7"))
+
+        } else {
+            binding.btnSetting.setBackgroundColor(Color.parseColor(btnColor))
+            binding.logoutBtn.setBackgroundColor(Color.parseColor(btnColor))
+
+        }
 
     }
 

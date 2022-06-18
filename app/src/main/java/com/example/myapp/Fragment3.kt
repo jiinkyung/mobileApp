@@ -1,7 +1,9 @@
 package com.example.myapp
 
 import android.content.Intent
+import android.content.SharedPreferences
 import android.graphics.Bitmap
+import android.graphics.Color
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.util.Log
@@ -11,6 +13,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapp.databinding.Fragment3Binding
@@ -19,6 +22,7 @@ import com.example.myapp.databinding.Fragment3Binding
 class Fragment3 : Fragment() {
     lateinit var binding : Fragment3Binding
     lateinit var adapter : MyAdapter2
+    lateinit var sharedPreferences : SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +35,7 @@ class Fragment3 : Fragment() {
     ): View? {
         binding = Fragment3Binding.inflate(inflater, container, false)
         val layoutManager = LinearLayoutManager(activity)
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity())
         // Inflate the layout for this fragment
 
         var datas : MutableList<String>? = null
@@ -53,7 +58,7 @@ class Fragment3 : Fragment() {
 
         }
 
-        binding.fab.setOnClickListener {
+        binding.btn.setOnClickListener {
             val intent = Intent(getActivity(), AddActivity::class.java)
             requestLancher.launch(intent)
         }
@@ -78,6 +83,19 @@ class Fragment3 : Fragment() {
         )
 
         return binding.root
+    }
+    override fun onResume() {
+        super.onResume()
+        val btnColor = sharedPreferences.getString("btnColor", "")
+        if(btnColor == ""){
+            binding.btn.setBackgroundColor(Color.parseColor("#A0D1F7"))
+
+
+        } else {
+            binding.btn.setBackgroundColor(Color.parseColor(btnColor))
+
+        }
+
     }
 
 }

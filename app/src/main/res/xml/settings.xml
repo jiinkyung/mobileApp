@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="user_info"
+        android:title="회원 정보 설정">
     <EditTextPreference
         android:key="name"
         android:title="닉네임 설정" />
@@ -9,6 +13,24 @@
         android:title="지역 설정"
         android:entries="@array/region_list"
         android:entryValues="@array/region_list"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="charge"
+        android:title="화면 설정">
+        <ListPreference
+            android:key="color"
+            android:title="배경 색상 선택"
+            android:entries="@array/my_color"
+            android:entryValues="@array/my_color_value" />
+        <ListPreference
+            android:key="btnColor"
+            android:title="버튼 색상 선택"
+            android:entries="@array/my_btncolor"
+            android:entryValues="@array/my_btncolor_value" />
+    </PreferenceCategory>
+
+
 
 
 </PreferenceScreen>

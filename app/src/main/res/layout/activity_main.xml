@@ -4,17 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="10dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="vertical">
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="이메일"
+            android:padding="20dp"
             android:id="@+id/authEmailEditView"
             android:inputType="textEmailAddress"
             android:layout_marginTop="20dp" />
@@ -22,36 +26,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="패스워드 - 6자 이상"
+            android:padding="20dp"
             android:id="@+id/authPasswordEditView"
             android:inputType="textPassword"
             android:layout_marginTop="20dp" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="로그인"
             android:textStyle="bold"
-            android:id="@+id/btnLogin"
-            android:layout_marginTop="20dp"/>
+            android:id="@+id/btnLogin"/>
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_kakao_login"
+            android:src="@drawable/kakao_login_medium_wide"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="회원가입"
             android:textStyle="bold"
             android:id="@+id/goSignInBtn"
-            android:layout_marginTop="20dp"
             />
 
     </LinearLayout>
-    <ImageButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_kakao_login"
-        android:src="@drawable/kakao_login_medium_wide"/>
+
 
 </LinearLayout>

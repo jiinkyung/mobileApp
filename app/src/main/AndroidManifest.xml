@@ -7,8 +7,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-
-
     <application
         android:name=".MyApplication2"
         android:allowBackup="true"
@@ -21,6 +19,9 @@
         android:theme="@style/Theme.MyApp"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <activity
+            android:name=".ProfileSettingFragment"
+            android:exported="false" />
         <activity
             android:name=".AddActivity"
             android:exported="false" />
@@ -42,22 +43,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
-            android:authorities="com.example.myapp.fileprovider"
             android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.myapp.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
-            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_path"></meta-data>
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
         </provider>
-        <activity android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+
+        <activity
+            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="oauth"
-                    android:scheme="kakao4a2f50e85daf54224e3d46802235380a"/>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="oauth"
+                    android:scheme="kakao4a2f50e85daf54224e3d46802235380a" />
             </intent-filter>
         </activity>
     </application>

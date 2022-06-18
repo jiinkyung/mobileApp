@@ -34,6 +34,13 @@ class MySettingFragment : PreferenceFragmentCompat() {
         val regionPreference : ListPreference? = findPreference("region")
         regionPreference?.summaryProvider = ListPreference.SimpleSummaryProvider.getInstance()
 
+        val colorPreference : ListPreference? = findPreference("color")
+        colorPreference?.summaryProvider = ListPreference.SimpleSummaryProvider.getInstance()
+
+        val btncolorPreference : ListPreference? = findPreference("btnColor")
+        btncolorPreference?.summaryProvider = ListPreference.SimpleSummaryProvider.getInstance()
+
+
 
     }
 

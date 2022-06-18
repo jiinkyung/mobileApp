@@ -11,19 +11,22 @@
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/activity_profile.xml" value="0.136" />
-        <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_1.xml" value="0.176" />
+        <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/activity_profile_setting_fragment.xml" value="0.13677536231884058" />
+        <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_1.xml" value="0.2" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_2.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_3.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_4.xml" value="0.264" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_5.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_blank.xml" value="0.13677536231884058" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_my_setting.xml" value="0.11820652173913043" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_retrofit.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/fragment_xml.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/item_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/item_main.xml" value="0.1" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/layout/item_recyclerview.xml" value="0.2484375" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/menu/menu_add.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/jinky/MyApp/app/src/main/res/menu/menu_main.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/jinky/MyApp/app/src/main/res/xml/settings.xml" value="0.264" />
+        <entry key="..\:/Users/jinky/MyApp/app/src/main/res/xml/profilesettings.xml" value="0.264" />
+        <entry key="..\:/Users/jinky/MyApp/app/src/main/res/xml/settings.xml" value="0.1" />
       </map>
     </option>
   </component>

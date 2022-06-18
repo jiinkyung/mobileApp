@@ -1,0 +1,1704 @@
+|CTAG_1630483967_1189446968_13800_0
+python
+dir
+|s
+cd c\
+cd \
+|d github\
+cd internetprog\
+cd \github
+cd github\
+|s
+|it clone https://github.com/jiinkyung/DSInternetProg.git
+|lear
+|it clone https://github.com/jiinkyung/DSInternetProg.git
+|it clone https://github.com/jiinkyung/DSInternetProg.git
+|lear
+git clone https://github.com/jiinkyung/DSInternetProg.git
+|s
+|d 
+cd DSInternetProg
+|s
+ls -A
+|lear
+|s
+|s venv
+venv/Scripts/activate.bat
+ls venv\Scripts
+|env\Scripts\activate.bat
+|ip list
+|eactivate
+|lear
+|env\Scripts\activate.bat
+|ip install django
+|ip list
+|lear
+django-admin
+django-admin startproject myInternetPrj .
+|s
+|lear
+|ython manage.py runserver
+|ython manage.py migrate
+|s
+|lear
+|ython manage.py createsuperuser
+|ython manage.py runserver
+|s
+|it add .
+|it commit -m "Django 프로젝트 생성"
+git config --global user.email "jinkyung010310@gmail.com"
+git config --global user.name "jinkyung"
+git commit -m "Django 프로젝트 생성"
+|it push
+|lear
+|s
+python manage.py startapp blog
+|ython manage.py startapp single_pages
+|s
+|it add .
+git commit -m "blog 앱과 single_pages 앱 생성하기"
+|it push
+|lear
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|lear
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|lear
+|it add .
+git commit -m "Post 모델 생성하고 시간 설정하기"
+|it push
+|ython manage.py runserver
+|lear
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|ython manage.py runserver
+|s 
+|s 
+ls 
+ls venv
+ls venv\Scripts\
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|lear
+git add.
+|lear
+|it add .
+git commit -m "FBV로 페이지 만들기"
+|it push
+|s
+|ctivate.bat
+|ython manage.py runserver
+|lear
+|s
+|d C:\internetprog
+|s
+|d C:\internetprog\github\DSInternetProg
+|s
+venv\Scripts\ activate.bat
+ls venv/
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|lear
+|ython manage.py runserver
+|it add .
+git commit -m "CBV로 블로그 페이지 만들기"
+|it push
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|s
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py runserver
+|it add .
+git commit -m "포스트 목록/상세 페이지에 부트스트랩 적용하기"
+|it push
+py manage.py runserver
+|ython manage.py makemigrations
+python -m pip install Pillow
+|ip list
+|n manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|it add .
+git commit -m "Post 모델에 이미지와 파일 필드 추가하기"
+|it push
+|s
+cd C:\internetprog
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|s
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+cdC:\internetprog\github\DSInternetProg 
+|d 
+|d C:\internetprog\github\DSInternetProg
+ venv\Scripts\activate.bat
+|it add .
+git commit -m "미리보기와 요약문 추가하기"
+|it push
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ip install beautifulsoup4
+|lear
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test\
+python manage.py test\
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|lear
+|it add .
+git commit -m "포스트 목록/상세 페이지 테스트하기"
+|it push
+|it push
+|s
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "포스트 목록/상세 페이지 디자인 통일하기"
+|it push
+|d C:\internetprog\github\ip_mid21
+|s
+|s
+|env\Scripts\activate.bat
+|ip install django
+|ip list
+|ython manage.py runserver
+|jango-admin startproject exam .
+|lear
+|lear
+|ython manage.py runserver
+|ython manage.py migrate
+|ython manage.py runserver
+|s
+|s
+|ython manage.py runserver
+|ython manage.py createsuperuser
+|ython manage.py createsuperuser
+|ython manage.py runserver
+|S
+cd C:\internetprog\github\ip_mid21 
+|s
+|env\Scripts\activate.bat
+|s
+|ython manage.py runserver
+|jango-admin startproject exam .
+|s
+rm manage.py*
+|s
+django-admin startproject exam .
+|ython manage.py createsuperuser
+|ython manage.py runserver
+|d C:\internetprog\github
+|s
+|s
+|s
+|d ip_mid21
+|s
+|env\Scripts\activate.bat
+|d ..
+|s
+|d ip_mid21
+|s
+|env\Scripts\activate.bat
+|s
+|ip install django
+|ip list
+|jango-admin startproject mid_prj .
+|s
+|ython manage.py runserver
+|d ..
+|d C:\internetprog\github\DSInternetProg\myInternetPrj
+|ython manage.py runserver
+quit
+cd C:\internetprog\github\DSInternetProg\myInternetPrj
+|env\Scripts\activate.bat
+|s
+|d C:\internetprog\github\DSInternetProg
+|s
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|lear
+|d C:\internetprog\github\DSInternetProg
+|s
+|env\Scripts\activate.bat
+|s
+python manage.py showmigrations
+|ip list
+|d C:\internetprog\github\DSInternetProg
+|s
+|env\Scripts\activate.bat
+|ython manage.py runserver
+exir
+CD C:\internetprog\github\ip_mid21
+LS
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py migrate
+|lear
+cd C:\internetprog\github
+|s
+|d ip_mid21
+|s
+|d ..
+|s
+ls ip_mid21
+|s
+cd ip_mid21
+|s
+|ip install django
+|s
+venv\
+|env\Scripts\activate.bat
+|s
+|d ..
+|s
+|env\Scripts\activate.bat
+|ip install django
+|ip list
+|jango-admin startproject mid_prj .
+|s
+|ython manage.py runserver
+|s
+|m db.sqlite3
+|s
+|s
+|ython manage.py runserver
+|s
+rm db.spqlite3
+rm db.sqlite3
+|s
+|s
+|d C:\internetprog\github\ip_mid21
+|s
+|s
+|s
+|s
+|env\Scripts\activate.bat
+|s
+|d ..
+|s
+|d C:\internetprog\github\ip_mid21
+|s
+|s
+|env\Scripts\activate.bat
+|eactivate
+|s
+|env\Scripts\activate.bat
+|eactivate
+|s
+|lear
+|s
+|ython manage.py migrate
+|s
+|env\Scripts\activate.bat
+|ython manage.py migrate
+|s
+|ython manage.py createsuperuser
+|ython manage.py startapp books
+|ython manage.py startapp mypages
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+|s
+|d C:\internetprog\github\ip_mid21
+|s
+venv\Scripts\activate\bat
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py createsuperuser
+|ython manage.py makemigrations
+|ython manage.py migrate
+python manage.py changesuperuser
+|lear
+|eactivate
+c
+|d ..
+|d C:\internetprog\github\ip_mid21
+|s
+|env\Scripts\activate.bat
+|s
+|ip install django
+|ip list
+django-admin startproject mid_prj .
+|s
+|ython manage.py migrate
+|ython manage.py createsuperuser
+|ython manage.py createsuperuser
+python manage.py startapp books
+python manage.py startapp mypages
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+|d C:\internetprog\github\ip_mid21
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ip -m install Pillow
+pip install Pillow
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ip install beautifulsoup4
+|ip list
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py runserver
+|n manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ip list
+cd C:\internetprog\github\ip_mid21
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py test
+|it add .
+git commit -m "네비게이션 바와 푸터 모듈화하기"
+|it push
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "포스트 목록/상세 페이지에 작성자 출력하기" 
+|it push
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py makemigrations
+|ython manage.py migrate
+on manage.py test blog.tests.TestView.test_post_list
+python manage.py test blog.tests.TestView.test_post_list
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "포스트 목록/상세 페이지에 카테고리 기능 추가하기"
+|it push
+|d
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "카테고리 페이지 만들기"
+|it push
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "포스트 목록/상세 페이지에 태그 기능 추가 및 태그 페이지 만들기"
+|it push
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "로그인한 사용자에게만 포스트 작성 페이지 열어주기"
+|it push
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "포스트 작성 페이지 접근 권한 설정하기"
+|it push
+|ython manage.py runserver
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "포스트 수정 기능 추가하기"
+|it push
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "포스트 작성/수정 태그 지정하기"
+|it push
+|ip install django-crispy-forms
+|ip install django-markdownx
+|ython manage.py makemigrations
+|ython manage.py migrate
+|it add .
+git commit -m "crispy-forms와 markdownx 라이브러리 이용하기"
+|it push
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ip install django-allauth
+|ython manage.py migrate
+|it add .
+git commit -m "구글 로그인 기능 추가하기"
+|it push
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|it add .
+git commit -m "댓글을 포스트 상세페이지에 나타내기"
+|it push
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+python manage.py runserveer
+|ython manage.py runserver
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py runserver
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+gid add .
+|it add .
+git commit -m "폼으로 포스트 상세 페이지에 댓글 작성하기"
+|it push
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ip install django
+|jango-admin startproject my_prj
+|ython manage.py migrate
+|s
+|env\Scripts\activate.bat
+ls my_prj
+|env\Scripts\activate.bat
+|ython manage.py migrate
+django-admin startproject my_prj
+pip install django
+|ython manage.py migrate
+|s
+|ython manage.py runserver
+|ip list
+django-admin startproject my_prj .
+|s
+|ython manage.py runserver
+|ython manage.py migrate
+python manage.py createsuperuser
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py runserver
+python manage.py startapp shoppingmall
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+pip -m install Pillow
+pip install pillow
+|ip list
+|ython manage.py makemigrations
+|ython manage.py migrate
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py runserver
+python manage.py startapp single_pages
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py makemigrations
+pip install beautifulsoup4
+|ip list
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+ cd C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py runserver
+on manage.py runserver
+|ython manage.py runserver
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py test
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py migrate
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test shoppingmall.tests.TestView.test_post_list
+python manage.py test shoppingmall.tests.TestView.test_post_list
+|ython manage.py test
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|it add .
+git commit -m "pagination으로 포스트 나누어 보여주기"
+|it push
+|ython manage.py test
+|it add .
+git commmit -m "검색 기능 추가하기"
+|it push
+|it add .
+git commit -m "검색 기능 추가하기"
+|it push
+|it add .
+git commit -m "사용자 아바타 보여주기"
+|it push
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py test
+|d C:\internetprog\github\ip_project
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|env\Scripts\activate.bat
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|d C:\internetprog\github\ip_project
+venv\Scritps\activate.bat
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py makemigrations
+|ython manage.py migrate
+|d C:\internetprog\github\ip_project
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+pip install django-crispy-froms
+|ip install django-crispy-forms
+|ython manage.py runserver
+|ython manage.py runserver
+pip install django-crispy-forms
+|ip list
+pip install django-markdownx
+|ip list
+python manage.py makemigratinos
+|ython manage.py makemigrations
+|ython manage.py migrate
+eexit
+|d C:\internetprog\github\DSInternetProg
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|env\Scripts\activate.bat
+|it add .
+git commit -m "대문 페이지 수정하기"
+|it push
+|ython manage.py runserver
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|it add .
+git commit -m "자기소개 페이지 완성하기"
+|it push
+|d C:\internetprog\github\ip_project
+|it push
+|ython manage.py runserver
+|d C:\internetprog\github\DSInternetProg
+|ython manage.py runserver
+|ocker -v
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ip freeze
+|ip freeze > requirements.txt
+|s
+|ore requirements.txt
+|ocker image ls
+|ocker container ls
+docker-compose build 
+|ocker-compose up
+|ocker-compose up -d
+|ocker container ls
+|ocker-compose exec web python manage.py test
+|ocker-compose down
+|ocker container ls
+|it add .
+|it add .
+git commit -m "도커에 장고만 담기"
+|it push
+|ocker container ls
+|ocker-compose up
+|ocker-compose up -d
+|ocker container ls
+|lear
+|ocker container ls
+|ocker-compose down
+|ip install psycopg2-binary
+|ip freeze > requirements.txt
+|ocker-compose build
+docker-compose -d
+|ocker-compose up -d
+|ocker-compose exec web python manage.py migrate
+|ocker-compose exec web python manage.py makemigrations
+|ocker-compose exec web python manage.py migrate
+|ocker-compose up
+|ocker-compose down
+|ocker-compose up
+|ocker-compose up -d
+|ocker-compose exec web python manage.py migrate
+|ocker-compose build
+|ocker-compose up -d
+|ocker-compose exec web python manage.py migrate
+|ocker-compose exec web python manage.py migrate
+pip list
+|ip install psycopg2-binary
+|ocker-compose down
+|ocker image ls
+|ocker rmi
+docker rmi  796b3f463c32
+docker rmi
+|ocker image ls
+docker rmi 059e6c357b80,bd8d832dbbd9,5b681acb1cfc
+5b681acb1cfc
+|ocker rmi 5b681acb1cfc
+|ocker image ls
+docker rmi 059e6c357b80
+|ocker image ls
+docker rmi bd8d832dbbd9
+|ocker image ls
+|ocker container ls
+pip freeze  > requirements.txt
+|ocker-compose build
+|ocker-compose up -d
+|ocker-compose exec web python manage.py migrate
+|ocker-compose exec web python manage.py migrate
+|ocker volume prune
+|ocker-compose down
+|ocker image ls
+docker rmi 874f402a418e
+|ocker rmi 5b681acb1cfc
+|ocker container ls
+|ocker image ls
+|ocker volume ls
+|ocker volume prune
+|ocker volume ls
+|ocker-compose build
+docker-compose up 
+docker-compose prune
+|ocker volume prune
+|ocker volume prune
+|ocker volume prune
+|ocker volume ls
+docker voluem prune
+|ocker volume prune
+|ocker volume ls
+|ocker container ls
+|ocker-compose down
+|ocker image ls
+docker rmi  874f402a418e
+|ocker rmi 5b681acb1cfc
+|ocker image ls
+|ocker volume prune
+|ocker volume ls
+|lear
+|ip freeze
+|ip freeze > requirements.txt
+|s
+|s
+more requirements.txt
+|ocker image ls
+|ocker container ls
+|ocker-compose build
+|ocker-compose up
+|ocker-compose up -d
+|ocker container ls
+docker-compose exec web python manage.py test
+|ocker-compose down
+|ocker container ls
+|ip install psycopg2-binary
+|ip freeze > requirements.txt
+|ocker-compose build
+|ocker-compose up -d
+|ocker-compose exec web python manage.py migrate
+|ocker-compose down
+|ocker container ls
+|ocker-compose up
+|ocker-compose up -d
+|ocker-compose exec web python manage.py migrate
+|ocker-compose exec web python manage.py migrate
+|ocker-compose up
+|ocker-compose up -d
+|ocker-compose exec web python manage.py makemigrations
+|ocker-compose exec web python manage.py migrate
+|ocker volume prune
+|ocker-compose down
+|ocker image ls
+docker rmi 5e3d3178e4a7
+docker rmi 27fcdcdbc820
+|ocker rmi 5b681acb1cfc
+|ocker image ls
+|ocker container ls
+|ocker volume prune
+|ocker volume ls
+|ocker-compose build
+|ocker-compose up
+|ocker-compose up
+|ocker-compose down
+|ocker-compose up
+|ocker-compose down
+|ocker-compose up
+|ocker-compose down
+|ocker container ls
+|ocker image ls
+docker rmi 
+docker rmi b0b6025b9b1f
+|ocker rmi 5b681acb1cfc
+docker iamge ls
+|ocker image ls
+|ocker container ls
+docker volume rpune
+|ocker volume prune
+|ocker volume ls
+|ocker-compose build
+|ocker-compose up
+|ocker-compose up
+|ocker-compose up
+|ocker-compose down
+docker container down
+|ocker container ls
+|ocker image ls
+docker rmi 734c0f430e9d
+|ocker rmi  5b681acb1cfc
+|ocker volume prune
+|ocker volume ls
+docker-compse build
+covker-compose build
+|ocker-compose build
+|ocker-compose up
+|ocker-compose up
+|ocker-compose up
+|ocker-compose up
+|ocker-compose down
+|ocker container ls
+|ocker image ls
+|ocker rmi 88352b1be7e1
+|ocker rmi 5b681acb1cfc
+|ocker image ls
+|ocker volume prune
+|ocker volume ls
+|lear
+|ocker-compose build
+|ocker-compose up
+|ocker container ls
+|ocker image ls
+docker rmi  88352b1be7e1
+|ocker rmi  5b681acb1cfc
+|ocker image ls
+|ocker-compose down
+docker rmi  5b681acb1cfc
+|ocker image ls
+docker rmi 88352b1be7e1
+|ocker volume prune
+|ocker volume ls
+|ocker-compose build
+|ocker-compose up -d
+|ocker-compose exec web python manage.py makemigrations
+|ocker-compose exec web python manage.py migrate
+88352b1be7e188352b1be7e1exir
+ C:\internetprog\github\DSInternetProg
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ocker container ls
+|ocker-compose up
+|ocker-compose down
+|ocker image ls
+docker rmi b4c2ace7a1f5
+|ocker rmi 5b681acb1cfc
+|ocker volume prune
+|ocker container ls
+|ocker image ls
+|ocker volume ls
+|ocker-compose build
+|ocker-compose up
+|ocker container ls
+|ocker-compose down
+|ocker image ls
+docker rmi c3651eae0f13
+|ocker rmi 5b681acb1cfc
+|ocker volume prune
+|ocker volume ls
+|d C:\internetprog\github\DSInternetProg
+|env\Scripts\activate.bat
+|ocker container ls
+|ocker image ls
+|ocker volume ls
+|ocker-compose build
+|ocker-compose up
+|ocker container ls
+|ocker image ls
+|ocker-compose build
+|ocker-compose up -d
+|ocker-compose exec web python manage.py makemigrations
+|ocker-compose exec web python manage.py migrate
+|ocker-compose exec web python manage.py migrate
+|ocker container ls
+|ocker-compose down
+|ocker container ls
+|ocker-compose down
+|ocker container ls
+|ocker-compose down
+|ocker image ls
+docker rmi 86e3796eb013
+docker rmi 6713fee0aebb
+|ocker rmi 5b681acb1cfc
+|ocker image ls
+|ocker-compose down
+|ocker-container ls
+|ocker container ls
+|ocker image ls
+|ocker rmi 5b681acb1cfc
+|ocker image ls
+|ocker volume prune
+|ocker volume ls
+|ocker-compose build
+|ocker-compose up -d
+|ocker container ls
+|ocker-compose down
+|ocker-compose build
+|ocker-compose up -d
+|ocker-compose exec web python manage.py makemigrations
+|ocker-compose exec web python manage.py migrate
+|ocker container ls
+|ocker-compose exec web python manage.py createsuperuser
+|it add .
+git commit -m "도커에 PostgresQL 설정 추가하기"
+|it push
+docker login
+|ocker images
+docker tag dsinternetprog_web:latest jiinkyung/ds_internet_21:latest
+docker iamges
+doker images
+|ocker images
+docker push jiinkyung/ds_internet_21:latest
+|ocker images
+docker rmi jiinkyung/ds_internet_21
+|ocker images
+docker pull jiinkyung/ds_internet_21:latest
+|ocker images
+|ocker container ls
+|lear
+|ocker container ls
+docker images
+|d C:\internetprog\github\ip_project
+|d C:\internetprog\github\ip_project
+venv/Scripts/venv/activate.bat
+|d 
+|s
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|env\Scripts\activate.bat
+pip install django-allauth
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+on manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+python manage.py tset
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py test
+|ython manage.py runserver
+|ython manage.py test
+python manage.py test
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+pip install psycopg2
+pip install psycopg2-binary
+pip freeze > requirements.txt
+|ocker-compose build
+docker -v
+|s
+pip freeze
+|ocker image ls
+|ocker container ls
+|ocker-compose build
+|ocker image ls
+|ocker container ls
+|ocker-compose build
+|ocker-compose up
+docker-container ls
+|ocker container ls
+|ocker image ls
+|ocker-compose up
+|ocker-compose up
+|ocker-compose build
+|ocker-compose up -d
+|ocker-compose exec web python manage.py migrate
+|ocker-compose exec web python manage.py makemigrations
+|ocker-compose exec web python manage.py migrate
+|ocker container ls
+|ocker-compose exec web python manage.py createsuperuser
+|ocker container ls
+docker-compose down
+|ocker container ls
+|ocker image ls
+docker rm 5ab4b9233e02
+docker rmi 5ab4b9233e02
+|ocker rmi 5b681acb1cfc
+|ocker volume prune
+|ocker image ls
+docker volume ls
+|ocker-compose up -d
+|ocker-compose up
+|ocker image ls
+|ocker container ls
+|ocker-compose up -d
+|ocker container ls
+docker compose down
+|ocker container ls
+|ocker image ls
+docker rmi 6e7d49c6a0ca
+docker rmi 5b681acb1cfc
+docker volume prune
+|ocker-compose build
+|ocker-compose up -d
+docker-compose exec web python manage.py migrate
+docker-compose exec web python manage.py makemigrations
+|ocker container ls
+docker-compose exec web python manage.py createsuperuser
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ocker-compose up -d
+|ocker container ls
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|ocker container ls
+docker compose up -d
+|ocker-compose up -d
+docker image ls
+docker-compose up
+docker-compose build
+|d C:\internetprog\github\ip_project
+|env\Scripts\activate.bat
+docker-compose up -d
+docker container ls
+cd C:\internetprog\github\DSInternetProg
+|s
+|d venv
+|s
+ls Scripts
+ls ../..
+|d ..
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\ip_project
+venv\Scripts\actibat.bat
+|env\Scripts\activate.bat
+|ython manage.py runserver
+|d C:\internetprog\github\ip_project
+cd github
+|d ..
+t clone https://github.com/jiinkyung/my_shoppingmall.git
+|it clone https://github.com/jiinkyung/my_shoppingmall.git
+|it clone https://github.com/jiinkyung/my_shoppingmall.git
+|s
+|d my_shoppingmall
+|s
+|s -as
+ls 0a
+ls -as
+|s -a
+cd ../ip_project
+|env\Scripts\activate.bat
+|it add .
+exi
+|d C:\internetprog\github\ip_project
+git clone https://github.com/jiinkyung/my_shoppingmall.git
+|env\Scripts\activate.bat
+|it add .
+|d ..
+|s
+cd ip_project
+|s
+ls my_shoppingmall
+git add my_shoppingmall
+cd my_shoppingmall
+|it add .
+|d ..
+|it add .
+cd C:\internetprog\github\my_shoppingmall
+|it add .
+|d ~
+cd .
+|d ..
+|d C:\internetprog\github\ip_project
+|s
+|it init
+|it remote add origin https://github.com/jiinkyung/ip_project.git
+|it remote -v
+|it pull origin master
+|it add .
+|it pull origin master
+|env\Scripts\activate.bat
+|it pull origin master
+|s
+|it init
+|it remote add origin https://github.com/jiinkyung/ip_project.git
+git remote -v
+|it pull origin master
+|eactivate
+cd C:\internetprog\github\ip_project
+|it init
+|s
+|s -al
+t remote add origin https://github.com/jiinkyung/ip_project.git
+|it remote add origin https://github.com/jiinkyung/ip_project.git
+init origin
+|it init
+|it remote add origin https://github.com/jiinkyung/ip_project.git
+|it add .
+|it init
+|it remote add origin https://github.com/jiinkyung/ip_project.git
+|it status
+git add
+|it add .
+|s -al
+ls git
+|d .git
+|mdir .git
+rmdir git
+ls .git/
+|it init
+rm -rf 
+rm -rf https://github.com/jiinkyung/ip_project.git
+|s -al
+|d ..
+rmdir .git
+rmdir -r .git
+rm .git
+rm -r .git
+ls -l
+|it init
+git remote add origin https://github.com/jiinkyung/ip_project.git
+|it status
+|it add .
+|it config --global core.autocrlf true
+|it add .
+|env\Scripts\activate.bat
+|it add .
+git config --global core.autocrlf true
+|it add .
+|eactivate
+git clone https://github.com/jiinkyung/ip_project.git
+|s -a
+cd .git
+;s
+|s
+|d ..
+help
+rm
+rm --help
+|m -rf .git
+|s
+|s -a
+git bash
+|s -a
+|m -rf .git
+|s -a
+ls -a
+|env\Scripts\activate.bat
+|it add .
+|it commit -m "commit"
+git push .
+deactivate
+|s
+|it init
+|s -al
+|m -rf .git
+|it init
+|s -al
+rmdir -rf .git
+rm -rf .git
+|s -al
+rm -rf .idea
+|s
+|s -al
+venv\Scripts\activate.bat
+|it add .
+|it commit -m "secret key 숨기기"
+|it push
+git pull origin master
+|it pull origin main
+|it add .
+git commit -m "secret key 숨기기"
+|it push
+cd C:\Users\jinky\OneDrive\바탕 화면\DSWU\2021\2021_2\인터넷프로그래밍\internetprog\github\DSInternetProg
+venv\Scripts
+|s
+cd venv
+|s
+cd Scripts
+|s
+activate.bat
+ssh root@ec2-13-209-77-139.ap-northeast-2.compute.amazonaws.com
+cd c:jiinky
+|s
+|d ..
+|s
+ls jiinky
+cd jiinky.pem
+ls jiinky.pem
+|lear
+cd C:\DP\temp\workspace\DP\src
+|it init
+|it commit -m "add code"
+|it add .
+git commit -m "add code"
+|it branch -M main
+git remote add origin https://github.com/jiinkyung/DP_codes.git
+|it push -u origin main
+cd C:\DP\temp\workspace
+|s -al
+cd DP
+|s
+|s -al
+cd src
+ls -alo
+|s -al
+|it add .
+git commit -m "code 수정"
+|it push
+|d C:\Users\jinky\AppData\Local\Android\Sdk\platform-tools
+|s
+|db kill-server
+|db devices
+|db kill-server
+adb start-server
+killall adb
+kill all adb
+|db devices
+adb devices List of devices attached 3230958a31e0c025 device
+|db devices
+kill adb
+|db kill-server
+|s
+cd adb.exe
+|db devices
+cd ~
+cd `
+~
+ls ~
+|d ..
+|d..
+|d..
+cd..
+|db devices
+|lear
+adb
+|s
+|db version
+adb-version
+"C:\Users\jinky\AppData\Local\Android\Sdk\platform-tools\adb.exe"
+cdC:\Users\jinky\AppData\Local\Android\Sdk\platform-tools
+|d C:\Users\jinky\AppData\Local\Android\Sdk\platform-tools
+adb version
+adb deviced
+adv devices
+adb devices
+cd C:\Users\jinky\AppData\Local\Android\Sdk\platform-tools
+adb kill-server
+|d ..
+cd //
+|d ..
+|s
+|d ..
+cd C
+cd C:
+|d
+|s
+clear
+cd C:\likelion10\practice
+|d ..
+|d ..
+cd C:\practice
+|s
+|it init
+git clone https://github.com/jiinkyung/git-practice.git
+git remote add origin https://github.com/jiinkyung/git-practice.git
+|it branch -M main
+|it push -u origin main
+cd C:\Users\jinky\AndroidStudioProjects
+|it init
+|it remote add origin https://github.com/jiinkyung/mobileAppProg.git
+|it branch -M main
+|it add .
+|it status
+git reset HEAD .
+git reset HEAD
+|s -al
+|s -al
+|it init
+git remote add origin https://github.com/jiinkyung/mobileAppProg.git
+|it branch -M main
+cd MyApplication/
+|s
+git add app
+|it status
+git commit -m "app 연습"
+git push 
+git push origin main
+|s
+git add ch6_view
+git commit -m "view 연습"
+|it push
+|it push -u origin main
+|s
+git add ch7_layout
+git commit -m "view 레이아웃"
+|it push
+|s
+|it add .
+|it commit -m "commit"
+|it push
+|s -al
+|d ..
+|s
+cd MyApplication7
+|it add .
+git commit -m "layout"
+|it push
+|d ..
+|it add MyApplication8
+git commit -m "사용자 이벤트 처리"
+|it push
+git add MyApplication9
+git commit -m "리소스 활용하기"
+|it push
+git add MyApplication10
+git commit -m "다이얼로그와 알림 이용"
+|it push
+git add MyApplication11
+git commit -m "제트팩 라이브러리"
+|it push
+git add MyApplication12
+git add MyApplication13
+git commit -m "액티비티 컴포넌트"
+|it push
+git add MyApplication14
+git commit -m "브로드캐스트 리시버"
+|it push
+|it add MyApplication16
+git commit -m "콘텐츠 provider"
+|it push
+git add MyApplication18
+git commit -m "네트워크/공공데이터"
+|it push
+git add MyApplication20
+git commit -m "firebase"
+|it push
+git add MyApplication19
+git commit -m "위치정보 활용"
+|it push
+git add DjangoMobileProject 
+|it commit -m "django 연동"
+|it push
+|it add MyDjango 
+git commit -m "django 연동"
+|it push
+|d ..
+cd mobileAppProject\
+|it init
+|it remote add origin https://github.com/jiinkyung/mobileAppPrj.git
+|it branch -M main
+|s
+|s
+cd MyApp
+|it add .
+git commit -m "initial commit"
+|it push -u origin main
+|it init
+git remote add origin https://github.com/jiinkyung/mobileAppPrj.git
+|it branch -M main
+|it add .
+|it commit -m "commit"
+|it push -u origin main
+|it init
+git remote add origin https://github.com/jiinkyung/test.git
+|it branch -M main
+|s
+|it add .
+git commit -m "commit"
+|it push -u origin main
+cd C:\Users\jinky\Do
+|d C:\Users\jinky\MyApp
+git init
+git remote add origin https://github.com/jiinkyung/mobileApp.git
+git branch -M main
+|it add .
+git commit -m "탭 생성"
+git push -u origin main
+cdC:\Users\jinky\MyApp
+|d C:\Users\jinky\MyApp
+|it add .
+git commit -m "fragment1 화면구성"
+|it push
+|d C:\Users\jinky\AndroidStudioProjects\MyDjango
+|s
+|d
+cd C:\Users\jinky\AndroidStudioProjects\DjangoMobileProject\mobile_project22
+|s
+python manage.py runserver
+|ython manage.py runserver 0.0.0.0:8000
+|d C:\Users\jinky\AndroidStudioProjects\MyDjango
+|it add .
+git commit -m "장고서버 데이터 불러오기"
+|it status
+git reset .
+|it status
+git log
+|it reset --soft HEAD^
+|it status
+git reset --soft HEAD^
+git reset HEAD^
+|it reset --soft HEAD~1
+|it status
+git reset --soft HEAD~1
+|it status
+ git reset HEAD~2
+|it status
+|s
+git add MyDjango
+|it add .
+|it status
+git commit -m "django 서버에서 데이터 불러오기"
+|it push
+git sttus
+|it status
+|it pull
+|it status
+|d ..
+|s
+git add MyApplication16
+|it commit -m "확인"
+|it push
+git pull
+|it status
+git add MyApplication8
+git commit -m "확인"
+|it push
+|it status
+|it add .
+git commit -m "오류"
+|it push
+|it status
+git branch
+C:\Users\jinky\AndroidStudioProjects\MyDjango
+cd 
+cd C:\Users\jinky\AndroidStudioProjects\MyDjango
+|it add .
+git commit -m "장고서버에서 데이터 가져오기"
+cd C:\Users\jinky\MyApp
+|it status
+|it pull origin main
+|it status
+cd ..
+cd AndroidStudioProjects\
+|it status
+|it pull origin main
+|it status
+git fetch --all
+git reset --hard origin/main
+git pull origin main
+|it status
+|s -al
+|it status
+python manage.py runserver 0.0.0.0:8000
+|it add MyDjango 
+git commit -m "장고서버에서 데이터 불러오기"
+|it push
+git add MyDjango 
+|it status
+git add .
+|it status
+git commit -m "서버에 데이터 추가"
+git push
+cd
+|d C:\likelion10\과제\[1차] HTML&CSS
+cd likelion
+cd c
+|s
+cd '/c/likelion10
+cd C:\likelion10\과제\[1차] HTML&CSS
+cd C:\likelion10
+|s
+|s -al
+cd 과제
+|s
+cd "[1차] HTML&CSS\
+ls
+ls -al
+git status

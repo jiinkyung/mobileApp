@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/fragment_activity"
+    android:id="@+id/rootLayout"
     tools:context=".FragmentActivity">
 
     <androidx.viewpager2.widget.ViewPager2
@@ -23,9 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/blue_200"
 
-
-        app:tabBackground="@color/main_blue"
         app:tabGravity="fill"
         app:tabIndicatorColor="#001D6E"
         app:tabMode="fixed"

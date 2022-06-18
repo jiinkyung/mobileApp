@@ -7,7 +7,10 @@
     android:orientation="vertical"
     android:id="@+id/fragment44"
     android:layout_margin="10dp"
+    android:padding="20dp"
+    android:gravity="center"
     tools:context=".Fragment4">
+
     <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

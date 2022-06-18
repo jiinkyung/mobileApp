@@ -10,7 +10,8 @@ class DBHelper(context: FragmentActivity?) : SQLiteOpenHelper(context, "testdb",
         p0?.execSQL("create table product_tb ("+
                 "_id integer primary key autoincrement,"+
                 "name not null,"+
-                "price not null)" )
+                "price not null,"+
+                "image)")
     }
 
     override fun onUpgrade(p0: SQLiteDatabase?, p1: Int, p2: Int) {
